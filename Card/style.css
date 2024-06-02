@@ -1,0 +1,68 @@
+* {
+    font-family: "Sora", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 164px;
+    margin: 0;
+    background-color: #FAFAF9;
+}
+
+#card {
+    max-width: min-content;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    box-sizing: content-box;
+    border-radius: 3%;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+#imagen {
+    padding: 16px;
+}
+
+img {
+    width: 336px;
+    height: 152px;
+    padding: 0;
+    border-radius: 3%;
+    object-fit: cover; 
+}
+
+#etiqueta {
+    max-width: min-content;
+    font-size: 10px;
+    color: #883AE1;
+    background-color: #E6D6FC;
+    border-radius: 15px;
+    padding: 6px 16px;
+    margin: 0 0 16px 16px;
+    font-weight: bold;
+}
+
+#titulo {
+    font-size: 18px;
+    margin-bottom: 6px;
+    margin: 0 0 6px 16px;
+}
+
+#descripcion {
+    font-size: 14px;
+    margin: 0 16px 20px 16px;
+    color: #6C727F;    
+}
+
+#borde {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #E5EAF0;
+}
+
+#autor {
+    margin: 0%;
+    font-size: 12px;
+    color: #6C727F;
+    margin: 20px 0 20px 16px;
+}
